@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(238, 119, 34);
+
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.card-section1 {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    background-color: gold;
+}
+
+
+
+.card-section2 {
+    flex: 2;
+    font-weight: bold;
+    background-color: rgb(47, 196, 246);
+}
+
+.card-section3 {
+    text-align: center;
+    flex: 1;
+    font-weight: bold;
+    background-color:rgb(238, 67, 67);
+}
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(88, 241, 88);
+}
+
