@@ -1,0 +1,28 @@
+body{
+    background-color: dimgrey;
+}
+.button{
+    width: 10%;
+    background-color:white;
+    border-radius: 10px; 
+    text-align: center;
+    padding: 10px 70px;
+    margin: auto auto;
+    display: block;
+    cursor: pointer;
+}
+@keyframes greening {
+    from
+    {background-color: white;}
+    to
+    {background-color: forestgreen;}
+}
+.button:hover {
+    animation: greening .5s ease-out 3;
+}
+.link{
+    text-decoration: none;
+    font-size: large;
+    color: #000;
+}
+   
