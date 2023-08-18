@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><input value="Работает?" onclick="alert('Работает. Не трогай!')" type="button"></p>
+    <p><input value="Хм..." onclick="show_Quotes()" type="button"></p>
+    <script>
+        function show_Quotes(){
+            var Quotes=[
+                'Пока вы не сделаете бессознательное сознательным, оно будет руководить вашей жизнью, и вы будете называть это судьбой.',
+                'Можно не допустить ни одной ошибки и всё равно проиграть. Это не слабость, - это жизнь.',
+                'Если ты не говоришь о своей боли, то тебя убьют и скажут, что ты получил от этого удовольствие.'
+            ]
+            
+            for (var number=0; number<Quotes.length; number++){
+                alert(Quotes[number]);
+            }
+        }
+    </script>
+    
+</body>
+</html>
